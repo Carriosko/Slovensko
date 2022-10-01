@@ -34,14 +34,19 @@
     transform: translate(-50%, 0%);
 }
 
+.substeps {
+    left: 10%;
+    text-align: left;
+}
+
 a:link {
-    color: white;
+    color: #fff700;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: grey;
+    color: #fff700;
     background-color: transparent;
     text-decoration: none;
 }
