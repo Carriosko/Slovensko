@@ -1,37 +1,286 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+
 <head>
-  <title>Stagecast Mercedes Fixing</title>
-  <link rel="stylesheet" href="https://carriosko.github.io/Slovensko/index.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="descrption" content="League of Legends Stagecast Quiz Script" />
+    <meta name="keyword"
+        content="lol, league, of, legends, mercedes, benz, stagecast, quiz, script" />
+
+    <!--  Title -->
+    <title>LoL | Stagecast Quiz Script</title>
+
+    <!-- Font Google -->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+    </noscript>
+
+    <link rel="preload" href="http://theme.dsngrid.com/video/grida.mp4" as="video" type="video/mp4">
+    <link rel="preload" href="assets/img/services/layout.svg" as="image">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+    <!-- custom styles (optional) -->
+    <link href="assets/css/plugins.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
 </head>
-<body>
-  <div class="container">
-    <img src="https://thegamehaus.com/wp-content/uploads/2022/09/WORLDS-2022-_-ORCHESTRAL-THEME-League-of-Legends-0-4-screenshot.png" />
-    <div class="top-center"><h1>League of Legends Stagecast Quiz Script</h1></div>
-    <div class="centered">
-      <h3><br></h3>
-      <h2>How to install</h2>
-      <h3>1. Install <a href="https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii">Resource Override Extension</a></h3>
-      <h3>2. Download <a href="https://carriosko.github.io/Slovensko/ROrules.json">ROrules.json</a></h3>
-        <h4 class="substeps">- Right Click</h4>
-        <h4 class="substeps">- Save As</h4>
-      <h3>3. Open <a href="chrome-extension://pkoacgokdfckfpndoffpifphamojphii/src/ui/devtoolstab.html">Resurce Override Menu</a></h3>
-        <h4 class="substeps">- Right Click</h4>
-        <h4 class="substeps">- Copy Link Address</h4>
-        <h4 class="substeps">- Open new tab in browser</h4>
-        <h4 class="substeps">- Paste copied link and press Enter</h4>
-      <h3>4. Click on Options, in the top right corner, then on Load Rules</h3>
-      <h3>5. Select the just downloaded ROrules.json file</h3>
-      <h3>6. Refresh the <a href="https://join.stagecast.io/?code=3425">Quiz Page</a></h3>
-      <h3>7. Play the game. If you lose script will send your score to server - score is as high as possible</h3>
+
+<!--classic-menu-->
+
+<body class="v-dark dsn-effect-scroll dsn-cursor-effect dsn-ajax">
+
+
+    <!-- ========== Loading Page ========== -->
+    <div class="preloader">
+        <span class="percent v-middle">0</span>
+        <span class="loading-text text-uppercase">Loading ...</span>
+        <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+        </div>
+        <h1 class="title v-middle">
+            <span class="letter-stroke">CS | LoL | SQS</span>
+            <span class="text-fill">CS | LoL | SQS</span>
+        </h1>
     </div>
-    <div class="bottom-center">
-      <h2>ROrules file is updated on a daily basis, since the quiz change/ish every 24h</h2>
-      <h2>So remember to check if a new version is available and if it is, repeat all steps from step 2</h2>
+    <!-- ========== End Loading Page ========== -->
+
+
+    <main class="main-root">
+
+        <!-- ========== side box left ========== -->
+        <div class="side-bar-full">
+            <div class="side-box-left ">
+                <div class="side-menu border-left border-right p-relative h-100 d-flex justify-content-center">
+                    <div class="page-active">
+                        <h2 class="text-uppercase">Home</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="side-box-right text-stroke border-right text-uppercase">
+                <div class="text-inner over-hidden">
+                    <div class="text-stroke-box">
+                        <div class="text-stroke-inner">lol | stagecast quiz script</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========== End side box left ========== -->
+
+
+        <div id="dsn-scrollbar">
+            <div class=" inner-content">
+                <div class="wrapper ">
+
+                    <!-- ========== Service Section ========== -->
+                    <section class="services dsn-container p-relative section-margin " data-dsn-title="Our Service">
+                        <div class="section-title">
+                            <span class="tag-heading p-10 mb-15 background-section heading-color">Installation</span>
+                            <h2 class="heading-h2">How to install</h2>
+                        </div>
+                        <div class="d-grid grid-md-2 grid-lg-3 dsn-isotope grid" data-dsn-item=".service-item">
+                            <div class="service-item">
+                                <div class="service-item-inner background-section style-box">
+                                    <div class="icon">
+                                        <img src="assets/img/services/developing.svg" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h4 class="title-block mt-20">Step 1</h4>
+                                        <p class="description mt-20">Install <a class="steplink" target="_blank" href="https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii">Resource Override Extension</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item-inner background-section style-box">
+                                    <div class="icon">
+                                        <img src="assets/img/services/mobile.svg" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h4 class="title-block mt-20">Step 2</h4>
+                                        <p class="description mt-20">2. Download <a class="steplink" target="_blank" href="https://carriosko.github.io/Slovensko/ROrules.json">ROrules.json</a><br>
+                                        - Right Click<br>
+                                        - Save As...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item-inner background-section style-box">
+                                    <div class="icon">
+                                        <img src="assets/img/services/business.svg" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h4 class="title-block mt-20">Step 3</h4>
+                                        <p class="description mt-20">Open <a class="steplink" target="_blank" href="chrome-extension://pkoacgokdfckfpndoffpifphamojphii/src/ui/devtoolstab.html">Resurce Override Menu</a><br>
+        - Right Click<br>
+        - Copy Link Address<br>
+        - Open new tab in browser<br>
+        - Paste copied link and press Enter<br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item-inner background-section style-box">
+                                    <div class="icon">
+                                        <img src="assets/img/services/customize.svg" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h4 class="title-block mt-20">Step 4</h4>
+                                        <p class="description mt-20">On the Resource Override page click on Options, in the top right corner, then on Load Rules
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item-inner background-section style-box">
+                                    <div class="icon">
+                                        <img src="assets/img/services/development.svg" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h4 class="title-block mt-20">Step 5</h4>
+                                        <p class="description mt-20">Select the downloaded ROrules.json file
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-item-inner background-section style-box">
+                                    <div class="icon">
+                                        <img src="assets/img/services/creative.svg" alt="">
+                                    </div>
+                                    <div class="content-box">
+                                        <h4 class="title-block mt-20">Step 6</h4>
+                                        <p class="description mt-20">Refresh the <a class="steplink" href="https://join.stagecast.io/?code=3425">Quiz Page</a> and play the game
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ========== End Service Section ========== -->
+
+
+
+                    <!-- ========== Footer ========== -->
+                    <footer class="footer border-top background-section">
+                        <div class="dsn-container">
+                            <div class="d-grid grid-sm-2">
+                                <div class="footer-item">
+                                    <a href="" class="logo-footer m-auto">
+                                        <img src="assets/img/logo.png" alt="" class="logo-dark cover-bg-img">
+                                        <img src="assets/img/logo-dark.png" alt="" class="logo-light cover-bg-img">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="footer-bottom d-grid grid-md-2 border-top pt-30 mt-30">
+                                <div class="footer-item order-md-2">
+                                    <div class="nav-footer text-right">
+                                        <ul>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover"
+                                                    data-dsn="parallax" href="#">Home</a>
+                                            </li>
+                                            <li class="d-inline-block over-hidden"><a class="link-hover"
+                                                    data-dsn="parallax" href="#">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="footer-item">
+                                    <div class="copyright">
+                                        <div class="copright-text over-hidden">© 2022 <a
+                                                class="link-hover" data-hover-text="Carrios" href="#"
+                                                target="_blank">Carrios</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- ========== End Footer ========== -->
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========== Cursor Page ========== -->
+    <div class="cursor">
+
+        <div class="cursor-helper">
+            <span class="cursor-drag">Drag</span>
+            <span class="cursor-view">View</span>
+            <span class="cursor-open"><i class="fas fa-plus"></i></span>
+            <span class="cursor-close">Close</span>
+            <span class="cursor-play">play</span>
+            <span class="cursor-next"><i class="fas fa-chevron-right"></i></span>
+            <span class="cursor-prev"><i class="fas fa-chevron-left"></i></span>
+        </div>
+
     </div>
-    <div class="very-bottom-center">
-      Not affiliated, associated, authorized, endorsed by, or in any way officially connected with Riot Games, Mercedes or Stagecast
+    <!-- ========== End Cursor Page ========== -->
+
+
+
+    <!-- ========== Light & Dark Options ========== -->
+    <div class="day-night">
+        <div class="night active" data-dsn-theme="dark">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <rect x="12.3" y="23.5" width="2.6" height="1"></rect>
+                <rect x="16.1" y="15.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -6.8871 16.5732)" width="1"
+                    height="2.6"></rect>
+                <rect x="23.5" y="12.3" width="1" height="2.6"></rect>
+                <rect x="30.1" y="16.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.5145 27.0538)" width="2.6"
+                    height="1"></rect>
+                <rect x="33.1" y="23.5" width="2.6" height="1"></rect>
+                <rect x="30.9" y="30.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -12.9952 31.4264)" width="1"
+                    height="2.6"></rect>
+                <rect x="23.5" y="33.1" width="1" height="2.6"></rect>
+                <rect x="15.3" y="30.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -17.3677 20.9457)" width="2.6"
+                    height="1"></rect>
+                <path
+                    d="M24,18.7c-2.9,0-5.3,2.4-5.3,5.3s2.4,5.3,5.3,5.3s5.3-2.4,5.3-5.3S26.9,18.7,24,18.7z M24,28.3c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3s4.3,1.9,4.3,4.3S26.4,28.3,24,28.3z">
+                </path>
+            </svg>
+        </div>
+        <div class="moon" data-dsn-theme="night">
+            <svg width="48" height="48" viewBox="0 0 48 48">
+                <path
+                    d="M24,33.9c-5.4,0-9.9-4.4-9.9-9.9c0-4.3,2.7-8,6.8-9.4l0.8-0.3l-0.1,0.9c-0.2,0.6-0.2,1.3-0.2,1.9c0,5.2,4.3,9.5,9.5,9.5c0.6,0,1.3-0.1,1.9-0.2l0.8-0.2L33.3,27C32,31.1,28.3,33.9,24,33.9z M20.4,15.9c-3.2,1.4-5.3,4.5-5.3,8.1c0,4.9,4,8.9,8.9,8.9c3.6,0,6.7-2.1,8.1-5.3c-0.4,0-0.8,0.1-1.3,0.1c-5.8,0-10.5-4.7-10.5-10.5C20.4,16.7,20.4,16.3,20.4,15.9z">
+                </path>
+            </svg>
+        </div>
     </div>
-  </div>
+    <!-- ========== End Light & Dark Options ========== -->
+
+    <!-- ========== Scroll Right Page To Top Page ========== -->
+    <div class="scroll-to-top">
+        <img src="assets/img/scroll_top.svg" alt="">
+        <div class="box-number v-middle">
+            <span>0%</span>
+        </div>
+    </div>
+    <!-- ========== End Scroll Right Page To Top Page ========== -->
+
+    <!-- ========== paginate-right-page ========== -->
+    <div class="dsn-paginate-right-page"></div>
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/dsn-grid.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
 </body>
+
 </html>
