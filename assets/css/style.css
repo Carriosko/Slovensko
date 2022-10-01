@@ -3351,7 +3351,20 @@ body.v-light .logo-footer img.logo-light {
   position: relative;
   margin-top: 15px;
 }
+/*# sourceMappingURL=style.css.map */
+
+/* CUSTOM CSS */
 .steplink {
     color: #14bfb5;
 }
-/*# sourceMappingURL=style.css.map */
+.text-stroke-inner {
+    opacity: 0.5;
+}
+
+.footer-bottom {
+	margin-top: 0;
+}
+
+.footer {
+	padding-top: 20px;
+}
