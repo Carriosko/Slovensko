@@ -1299,9 +1299,6 @@
                             this.answerId = [0,1,1,3,1,2,2,3,1,1,1,1,3,1,1,1,3,1,2,3,2][this.question.id];
                             //05.10.2022
                             this.$SDK.quest.respondToChallenge(this.question.id, this.question.hash, this.answerId, a).then((function(e) {
-                                console.log(n);
-                                console.log(e);
-                                alert(e.correctResponses);
                                 n.checkAnswerTimeout = setTimeout((function() {
                                     n.correctIds = e.correctResponses, n.status = e.correctResponses.includes(n.answerId) ? "correct" : "wrong", n.trackAction(n.status), n.questionPoints = e.challengePoints, n.totalPoints = e.totalPoints, n.showPoints = !0, n.nextQuestionTimeout = setTimeout((function() {
                                         n.$emit("goToNext", {
