@@ -29,7 +29,7 @@ function updateQuadrant(){
 
         now = new Date().getTime();
         [d, m, y] = dayQuiz["days"].at(-1)
-        end = new Date(Date.UTC(y, m - 1, d, 17, 50, 30)).getTime();
+        end = new Date(Date.UTC(y, m - 1, d+1, 17, 50, 30)).getTime();
         dif = end - now;
 
         if (dif < 0 ){
@@ -40,10 +40,14 @@ function updateQuadrant(){
         h = Math.floor(dif % 864e5 / 36e5);
         m = Math.floor(dif % 36e5 / 6e4);
         s = Math.floor(dif % 6e4 / 1e3);
-        time.innerText = h + " : " + m + " : " + s;
+        time.innerText = prettyTime(h) + " : " + prettyTime(m) + " : " + prettyTime(s);
     }, 1000);
         
     
+}
+
+function prettyTime(number) {
+    return number.toString() > 9 ? number : "0"+number.toString();
 }
 
 async function getData(start, offset){
