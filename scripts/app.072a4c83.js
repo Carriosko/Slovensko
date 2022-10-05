@@ -876,7 +876,7 @@
                     },
                     handleGameOver: function(e) {
                         var t = this;
-                        e.finalScore = 34916;
+                        e.finalScore = 34917;
                         this.$SDK.quest.respondToChallenge(1, this.challenge.hash, e.finalScore, {}).then((function() {
                             t.$emit("gameOver", e.totalClicks)
                         })).catch((function(e) {
@@ -2207,56 +2207,56 @@
                 }),
                 sv: Object(d["a"])({}, n("cdc4").default, {
                     help: {
-                        howto: ["Kom ihag mˆnstret och upprepa det genom att klicka pa knapparna i r‰tt ordning.", "I varje runda ˆkar mˆnstrets l‰ngd med ett.", "Ju snabbare du klickar mˆnstret desto mer po‰ng far du.", "Din slutgiltiga po‰ng r‰knas ut beroende pa hur manga mˆnster du upprepat korrekt. Po‰ngen avgˆr din placering pa po‰nglistan."]
+                        howto: ["Kom ihag m√∂nstret och upprepa det genom att klicka pa knapparna i r√§tt ordning.", "I varje runda √∂kar m√∂nstrets l√§ngd med ett.", "Ju snabbare du klickar m√∂nstret desto mer po√§ng far du.", "Din slutgiltiga po√§ng r√§knas ut beroende pa hur manga m√∂nster du upprepat korrekt. Po√§ngen avg√∂r din placering pa po√§nglistan."]
                     },
                     intro: {
                         title: "Kom ihag sekvensen",
-                        subtitle: "Ju snabbare du svarar, desto fler po‰ng far du.",
+                        subtitle: "Ju snabbare du svarar, desto fler po√§ng far du.",
                         placeholder: "Skriv ditt namn...",
                         button: "Starta spelet",
                         info: "tecken kvar"
                     },
                     game: {
-                        gameOver: "Spelet ˆver",
+                        gameOver: "Spelet √∂ver",
                         time: "Tid",
-                        memorize: "Kom ihag mˆnstret",
-                        click: "Klicka pa mˆnstret!",
+                        memorize: "Kom ihag m√∂nstret",
+                        click: "Klicka pa m√∂nstret!",
                         correct: "Korrekt!",
                         incorrect: "Slut pa spelet",
-                        score: "Dina Po‰ng"
+                        score: "Dina Po√§ng"
                     },
                     end: {
                         round: "Omgang ",
                         header: {
                             last: "Senaste Resultat",
-                            best: "B‰sta Resultat",
+                            best: "B√§sta Resultat",
                             rank: "Din Ranking",
                             prizeButton: "Din Vinst",
-                            playButton: "Bˆrja Om"
+                            playButton: "B√∂rja Om"
                         },
                         countdown: {
                             title: "Countdown",
-                            noprize: "Kl‰ttra till toppen av listan innan nedr‰kningen ‰r ˆver!",
-                            prizeTopRanking: "Kl‰ttra till <strong>topp {num}</strong> pa listan innan nedr‰kningen ‰r ˆver!",
-                            prizeEnoughPoints: "Samla <strong>{num}</strong>p innan nedr‰kningen ‰r ˆver!"
+                            noprize: "Kl√§ttra till toppen av listan innan nedr√§kningen √§r √∂ver!",
+                            prizeTopRanking: "Kl√§ttra till <strong>topp {num}</strong> pa listan innan nedr√§kningen √§r √∂ver!",
+                            prizeEnoughPoints: "Samla <strong>{num}</strong>p innan nedr√§kningen √§r √∂ver!"
                         },
                         leaderboard: {
                             title: "Topplista",
-                            loading: "Laddar hˆgsta po‰ngen",
-                            wait: "V‰nta...",
+                            loading: "Laddar h√∂gsta po√§ngen",
+                            wait: "V√§nta...",
                             updating: "Uppdateras automatiskt",
-                            info: "Spela igen fˆr att ta dig in pa resultattavlan",
+                            info: "Spela igen f√∂r att ta dig in pa resultattavlan",
                             empty: "Ingen har spelat denna runda."
                         }
                     }
                 }),
                 de: Object(d["a"])({}, n("6413").default, {
                     help: {
-                        howto: ["Merke dir das Muster und wiederhole es, indem du auf die Schaltfl‰chen in der richtigen Reihenfolge klickst.", "Mit jeder Runde erhˆht sich die Musterl‰nge um 1.", "Je schneller du das Muster klickst, desto mehr Punkte erh‰ltst du.", "Deine endg¸ltige Punktzahl wird basierend auf der Anzahl der Muster berechnet, die du korrekt wiederholt hast. Die Punktzahl bestimmt deinen Rang in der Rangliste."]
+                        howto: ["Merke dir das Muster und wiederhole es, indem du auf die Schaltfl√§chen in der richtigen Reihenfolge klickst.", "Mit jeder Runde erh√∂ht sich die Musterl√§nge um 1.", "Je schneller du das Muster klickst, desto mehr Punkte erh√§ltst du.", "Deine endg√ºltige Punktzahl wird basierend auf der Anzahl der Muster berechnet, die du korrekt wiederholt hast. Die Punktzahl bestimmt deinen Rang in der Rangliste."]
                     },
                     intro: {
                         title: "Merk' dir die Reihenfolge",
-                        subtitle: "Je schneller du die Reihenfolge wiedergibst, desto mehr Punkte erh‰ltst du.",
+                        subtitle: "Je schneller du die Reihenfolge wiedergibst, desto mehr Punkte erh√§ltst du.",
                         placeholder: "Dein Name",
                         button: "Spielen",
                         info: "Zeichen"
@@ -2387,67 +2387,67 @@
                 }),
                 es: Object(d["a"])({}, n("0503").default, {
                     help: {
-                        howto: ["Recuerda el patrÛn y repÌtelo haciendo clic en los botones en el orden correcto.", "En cada ronda, la longitud del patrÛn aumenta en uno.", "Cuanto m·s r·pido haga clic en el patrÛn, m·s puntos ganar·.", "Su puntaje final se calcula en funciÛn de la cantidad de patrones que repitiÛ correctamente. La puntuaciÛn determina tu posiciÛn en la clasificaciÛn."]
+                        howto: ["Recuerda el patr√≥n y rep√≠telo haciendo clic en los botones en el orden correcto.", "En cada ronda, la longitud del patr√≥n aumenta en uno.", "Cuanto m√°s r√°pido haga clic en el patr√≥n, m√°s puntos ganar√°.", "Su puntaje final se calcula en funci√≥n de la cantidad de patrones que repiti√≥ correctamente. La puntuaci√≥n determina tu posici√≥n en la clasificaci√≥n."]
                     },
                     intro: {
                         title: "Recuerda la secuencia",
-                        subtitle: "Cuanto m·s r·pido respondas, m·s puntos ganar·s.",
-                        placeholder: "Cuanto m·s r·pido respondas, m·s puntos ganar·s.",
+                        subtitle: "Cuanto m√°s r√°pido respondas, m√°s puntos ganar√°s.",
+                        placeholder: "Cuanto m√°s r√°pido respondas, m√°s puntos ganar√°s.",
                         button: "Empezar juego",
                         info: "caracteres restantes"
                     },
                     game: {
                         gameOver: "Juego terminado",
                         time: "Time",
-                        score: "Tu puntuaciÛn",
-                        memorize: "Memoriza el patrÛn",
-                        click: "!Haz clic en el patrÛn!",
-                        correct: "!Haz clic en el patrÛn!",
+                        score: "Tu puntuaci√≥n",
+                        memorize: "Memoriza el patr√≥n",
+                        click: "!Haz clic en el patr√≥n!",
+                        correct: "!Haz clic en el patr√≥n!",
                         incorrect: "Fin del juego"
                     },
                     end: {
                         round: "Ronda",
                         header: {
-                            last: "⁄ltima puntuaciÛn",
-                            best: "⁄ltima puntuaciÛn",
+                            last: "√öltima puntuaci√≥n",
+                            best: "√öltima puntuaci√≥n",
                             rank: "Su rango",
                             prizeButton: "Su rango",
                             playButton: "Juega de nuevo"
                         },
                         countdown: {
                             title: "cuenta regresiva",
-                            noprize: "!Sube a lo m·s alto de la clasificaciÛn antes de que se acabe la cuenta atr·s!",
-                            prizeTopRanking: "!Sube al <strong>top {num}</strong> de la clasificaciÛn antes de que acabe la cuenta atr·s!",
-                            prizeEnoughPoints: "!Alcanza <strong>{num}</strong>p antes de que acabe la cuenta atr·s!"
+                            noprize: "!Sube a lo m√°s alto de la clasificaci√≥n antes de que se acabe la cuenta atr√°s!",
+                            prizeTopRanking: "!Sube al <strong>top {num}</strong> de la clasificaci√≥n antes de que acabe la cuenta atr√°s!",
+                            prizeEnoughPoints: "!Alcanza <strong>{num}</strong>p antes de que acabe la cuenta atr√°s!"
                         },
                         leaderboard: {
                             title: "Marcador",
-                            loading: "Cargando puntuaciones m·ximas",
+                            loading: "Cargando puntuaciones m√°ximas",
                             wait: "Espere por favor...",
                             updating: "Actualizando en vivo",
-                            info: "Juega de nuevo para clasificarte en la nueva clasificaciÛn.",
-                            empty: "Nadie jugÛ en esta ronda."
+                            info: "Juega de nuevo para clasificarte en la nueva clasificaci√≥n.",
+                            empty: "Nadie jug√≥ en esta ronda."
                         }
                     }
                 }),
                 fr: Object(d["a"])({}, n("80b1").default, {
                     help: {
-                        howto: ["Rappelez-vous le motif et rÈpÈtez-le en cliquant sur les boutons dans le bon ordre.", "A chaque tour, la longueur du motif augmente de un.", "Plus vite vous cliquez sur le motif, plus vous gagnez de points.", "Votre score final est calculÈ en fonction du nombre de motifs que vous avez rÈpÈtÈs correctement. Le score dÈtermine votre rang dans le classement."]
+                        howto: ["Rappelez-vous le motif et r√©p√©tez-le en cliquant sur les boutons dans le bon ordre.", "A chaque tour, la longueur du motif augmente de un.", "Plus vite vous cliquez sur le motif, plus vous gagnez de points.", "Votre score final est calcul√© en fonction du nombre de motifs que vous avez r√©p√©t√©s correctement. Le score d√©termine votre rang dans le classement."]
                     },
                     intro: {
-                        title: "Rappelez-vous la sÈquence",
-                        subtitle: "Plus vous rÈpondez rapidement, plus vous gagnez de points.",
+                        title: "Rappelez-vous la s√©quence",
+                        subtitle: "Plus vous r√©pondez rapidement, plus vous gagnez de points.",
                         placeholder: "Tapez votre nom...",
-                        button: "DÈmarrer jeu",
+                        button: "D√©marrer jeu",
                         info: "caracteres restants"
                     },
                     game: {
-                        gameOver: "Jeu terminÈ",
+                        gameOver: "Jeu termin√©",
                         time: "Temps",
                         score: "Ton score",
-                        memorize: "MÈmorisez le motif",
-                        click: "Cliquez sur le motif†!",
-                        correct: "Cliquez sur le motif†!",
+                        memorize: "M√©morisez le motif",
+                        click: "Cliquez sur le motif¬†!",
+                        correct: "Cliquez sur le motif¬†!",
                         incorrect: "Fin de partie"
                     },
                     end: {
@@ -2461,17 +2461,17 @@
                         },
                         countdown: {
                             title: "Compte a rebours",
-                            noprize: "Montez au sommet du classement avant la fin du compte a rebours†!",
-                            prizeTopRanking: "Montez dans le <strong>top {num}</strong> du classement avant la fin du compte a rebours†!",
+                            noprize: "Montez au sommet du classement avant la fin du compte a rebours¬†!",
+                            prizeTopRanking: "Montez dans le <strong>top {num}</strong> du classement avant la fin du compte a rebours¬†!",
                             prizeEnoughPoints: "Atteignez <strong>{num}</strong>p avant la fin du compte a rebours!"
                         },
                         leaderboard: {
                             title: "Classement",
                             loading: "Chargement des meilleurs scores",
-                            wait: "Síil vous plaÓt, attendez...",
+                            wait: "S¬íil vous pla√Æt, attendez...",
                             updating: "Mise a jour en direct",
-                            info: "Rejouez pour etre classÈ dans le nouveau classement.",
-                            empty: "Personne nía jouÈ dans ce tour."
+                            info: "Rejouez pour etre class√© dans le nouveau classement.",
+                            empty: "Personne n¬ía jou√© dans ce tour."
                         }
                     }
                 })
