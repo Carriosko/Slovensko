@@ -1300,6 +1300,8 @@
                             //05.10.2022
                             this.$SDK.quest.respondToChallenge(this.question.id, this.question.hash, this.answerId, a).then((function(e) {
                                 n.checkAnswerTimeout = setTimeout((function() {
+                                    console.log(n);
+                                    console.log(e);
                                     n.correctIds = e.correctResponses, n.status = e.correctResponses.includes(n.answerId) ? "correct" : "wrong", n.trackAction(n.status), n.questionPoints = e.challengePoints, n.totalPoints = e.totalPoints, n.showPoints = !0, n.nextQuestionTimeout = setTimeout((function() {
                                         n.$emit("goToNext", {
                                             points: n.totalPoints
