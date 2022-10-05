@@ -47,7 +47,7 @@ function updateQuadrant(){
 }
 
 function prettyTime(number) {
-    return number.toString() > 9 ? number : "0"+number.toString();
+    return number > 9 ? number.toString() : "0"+number.toString();
 }
 
 async function getData(start, offset){
