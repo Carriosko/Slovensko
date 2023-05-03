@@ -4,6 +4,9 @@ var firstDay;
 var lastDay;
 var perPage = 100;
 var page = 1;
+/*
+Look for website like https://console.stagecast.io/api/quests/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/results?offset=0&limit=1
+*/
 
 async function loadDayQuizJson(){
     dayQuiz = await fetch("./dayQuiz.json").then((response) => response.json());
