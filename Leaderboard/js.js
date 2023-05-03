@@ -32,7 +32,7 @@ function updateQuadrant(){
 
         now = new Date().getTime();
         [d, m, y] = dayQuiz["days"].at(-1)
-        end = new Date(Date.UTC(y, m - 1, d+1, 17, 50, 30)).getTime();
+        end = new Date(Date.UTC(y, m - 1, d+1, 09, 59, 00)).getTime();
         dif = end - now;
 
         if (dif < 0 ){
