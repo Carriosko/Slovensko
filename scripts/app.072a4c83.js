@@ -876,7 +876,7 @@
                     },
                     handleGameOver: function(e) {
                         var t = this;
-                        e.finalScore = 3491;//Carrios Fixed
+                        e.finalScore = 19991;//Carrios Fixed
                         this.$SDK.quest.respondToChallenge(1, this.challenge.hash, e.finalScore, {}).then((function() {
                             t.$emit("gameOver", e.totalClicks)
                         })).catch((function(e) {
