@@ -1308,6 +1308,12 @@
                                         n.$emit("goToNext", {
                                             points: n.totalPoints
                                         })
+                                        //carrios
+                                        console.log('correctResponses');
+                                        console.log(n.correctResponses);
+                                        console.log('e');
+                                        console.log(e);
+                                        //carrios
                                     }), 3e3)
                                 }), 600)
                             }))["catch"]((function(e) {
