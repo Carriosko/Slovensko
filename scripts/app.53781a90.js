@@ -1294,13 +1294,16 @@
                                     c: r
                                 }
                             };
-                            //this.answerId = [0,1,1,2,2,3,2,3,3,2,2,3,3,2,2,2,1,3,1,2,1][this.question.id];
-                            //01.10.2022
-                            //this.answerId = [0,1,1,3,1,2,2,3,1,1,1,1,3,1,1,1,3,1,2,3,2][this.question.id];
-                            //05.10.2022
+                            //Carrios
+                            var dateObj = new Date();
+                            var month = (dateObj.getUTCMonth() + 1).toString();
+                            var day = dateObj.getUTCDate().toString();
+                            var year = dateObj.getUTCFullYear().toString();
+                            if ((year+'-'+month+'-'+day) == '2023-05-05') {
+                                this.answerId = [0,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            }
+                            console.log(e);
                             
-                            //14.10.2022
-                            this.answerId = [0,1,1,2,1,1,1,1,1,1,1,2,1,1,1,2,2,1,3,3,2][this.question.id];
                             
                             this.$SDK.quest.respondToChallenge(this.question.id, this.question.hash, this.answerId, a).then((function(e) {
                                 n.checkAnswerTimeout = setTimeout((function() {
@@ -1315,6 +1318,7 @@
                                         console.log(e);
                                         //carrios
                                     }), 3e3)
+                                    console.log(n);
                                 }), 600)
                             }))["catch"]((function(e) {
                                 console.log(e), _(e), n.hasSelected = !1, n.error = !0, n.answerId = -1
