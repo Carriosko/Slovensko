@@ -1302,8 +1302,8 @@
                             var dateToCheck = (year+'-'+month+'-'+day);
                             
                             console.log(dateToCheck);
-                            if (dateToCheck == '2023-05-05') {
-                                this.answerId = [0,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            if (dateToCheck == '2023-5-5') {
+                                this.answerId = [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             }
                             console.log(e);
                             
