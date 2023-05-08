@@ -835,9 +835,9 @@
                 methods: {
                     gameOver: function(e) {
                         var t = this;
-                        window.console.log(e);
-                        console.log(e);
-                        alert(e);
+                        window.console.log(JSON.stringify(e));
+                        console.log(JSON.stringify(e));
+                        alert(JSON.stringify(e));
                         e.points = 19491;
                         this.$SDK.quest.respondToChallenge(1, this.challenge.hash, e.points, {}).then((function() {
                             t.$emit("gameOver", !0)
