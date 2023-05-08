@@ -2418,51 +2418,51 @@
             }),
             sv: Object(d["a"])({}, n("cdc4").default, {
                 help: {
-                    howto: ["Klicka pa bilder för att fa poäng och öka din multiplicerare med 1 varje gang du tar en bild i en rad", "Missar du en bild sa nollställs din multiplicerare.", "Gyllene bilder kan bli klickade pa flera ganger och du far tre ganger mer poäng per klick."]
+                    howto: ["Klicka pa bilder fÃ¶r att fa poÃ¤ng och Ã¶ka din multiplicerare med 1 varje gang du tar en bild i en rad", "Missar du en bild sa nollstÃ¤lls din multiplicerare.", "Gyllene bilder kan bli klickade pa flera ganger och du far tre ganger mer poÃ¤ng per klick."]
                 },
                 intro: {
                     title: "Klicka pa bilderna",
-                    subtitle: "Ju fler bilder du klickar i en rad, desto mer poäng far du.",
+                    subtitle: "Ju fler bilder du klickar i en rad, desto mer poÃ¤ng far du.",
                     placeholder: "Skriv ditt namn...",
                     button: "Starta spelet",
                     info: "tecken kvar"
                 },
                 game: {
                     click: "Klicka pa bilderna snabbt!",
-                    score: "Dina Poäng"
+                    score: "Dina PoÃ¤ng"
                 },
                 end: {
                     round: "Omgang ",
                     header: {
                         last: "Senaste Resultat",
-                        best: "Bästa Resultat",
+                        best: "BÃ¤sta Resultat",
                         rank: "Din Ranking",
                         prizeButton: "Din Vinst",
-                        playButton: "Börja Om"
+                        playButton: "BÃ¶rja Om"
                     },
                     countdown: {
                         title: "Countdown",
-                        noprize: "Klättra till toppen av listan innan nedräkningen är över!",
-                        prizeTopRanking: "Klättra till <strong>topp {num}</strong> pa listan innan nedräkningen är över!",
-                        prizeEnoughPoints: "Samla <strong>{num}</strong>p innan nedräkningen är över!"
+                        noprize: "KlÃ¤ttra till toppen av listan innan nedrÃ¤kningen Ã¤r Ã¶ver!",
+                        prizeTopRanking: "KlÃ¤ttra till <strong>topp {num}</strong> pa listan innan nedrÃ¤kningen Ã¤r Ã¶ver!",
+                        prizeEnoughPoints: "Samla <strong>{num}</strong>p innan nedrÃ¤kningen Ã¤r Ã¶ver!"
                     },
                     leaderboard: {
                         title: "Topplista",
-                        loading: "Laddar högsta poängen",
-                        wait: "Vänta...",
+                        loading: "Laddar hÃ¶gsta poÃ¤ngen",
+                        wait: "VÃ¤nta...",
                         updating: "Uppdateras automatiskt",
-                        info: "Spela igen för att ta dig in pa resultattavlan",
+                        info: "Spela igen fÃ¶r att ta dig in pa resultattavlan",
                         empty: "Ingen har spelat denna runda."
                     }
                 }
             }),
             de: Object(d["a"])({}, n("6413").default, {
                 help: {
-                    howto: ["Klicke auf die Bilder, um Punkte zu erhalten. Wenn du mehrere Bilder hintereinander anklickst erhöht dies deinen Multiplier um +1.", "Wenn du daneben klickst, wird dein Multiplier zurückgesetzt.", "Goldene Bilder können mehrmals angeklickt werden und du erhältst 3x mehr Punkte pro Klick."]
+                    howto: ["Klicke auf die Bilder, um Punkte zu erhalten. Wenn du mehrere Bilder hintereinander anklickst erhÃ¶ht dies deinen Multiplier um +1.", "Wenn du daneben klickst, wird dein Multiplier zurÃ¼ckgesetzt.", "Goldene Bilder kÃ¶nnen mehrmals angeklickt werden und du erhÃ¤ltst 3x mehr Punkte pro Klick."]
                 },
                 intro: {
                     title: "Klicke auf die Bilder",
-                    subtitle: "Je mehr Bilder du hintereinander anklickst, desto mehr Punkte erhältst du.",
+                    subtitle: "Je mehr Bilder du hintereinander anklickst, desto mehr Punkte erhÃ¤ltst du.",
                     placeholder: "Dein Name",
                     button: "Spielen",
                     info: "Zeichen"
@@ -2578,53 +2578,53 @@
             }),
             es: Object(d["a"])({}, n("0503").default, {
                 help: {
-                    howto: ["Haz clic en las imágenes para ganar puntos y aumentar tu multiplicador en +1 cada vez que golpeas una imagen seguida.", "La falta de una imagen restablecerá su multiplicador.", "Se puede hacer clic en las imágenes doradas varias veces y gana x3 puntos más por cada clic."]
+                    howto: ["Haz clic en las imÃ¡genes para ganar puntos y aumentar tu multiplicador en +1 cada vez que golpeas una imagen seguida.", "La falta de una imagen restablecerÃ¡ su multiplicador.", "Se puede hacer clic en las imÃ¡genes doradas varias veces y gana x3 puntos mÃ¡s por cada clic."]
                 },
                 intro: {
-                    title: "Haga clic en las imágenes",
-                    subtitle: "Cuantas más imágenes haga clic seguidas, más puntos ganará.",
+                    title: "Haga clic en las imÃ¡genes",
+                    subtitle: "Cuantas mÃ¡s imÃ¡genes haga clic seguidas, mÃ¡s puntos ganarÃ¡.",
                     placeholder: "Type your name...",
                     button: "Empezar juego",
                     info: "caracteres restantes"
                 },
                 game: {
-                    click: "!Haz clic en las imágenes rápido!",
-                    score: "Tu puntuación"
+                    click: "!Haz clic en las imÃ¡genes rÃ¡pido!",
+                    score: "Tu puntuaciÃ³n"
                 },
                 end: {
                     round: "Ronda",
                     header: {
-                        last: "Última puntuación",
-                        best: "Mejor puntuación",
-                        rank: "Mejor puntuación",
+                        last: "Ãšltima puntuaciÃ³n",
+                        best: "Mejor puntuaciÃ³n",
+                        rank: "Mejor puntuaciÃ³n",
                         prizeButton: "Tu premio",
                         playButton: "Juega de nuevo"
                     },
                     countdown: {
                         title: "cuenta regresiva",
-                        noprize: "!Sube a lo más alto de la clasificación antes de que se acabe la cuenta atrás!",
-                        prizeTopRanking: "!Sube al <strong>top {num}</strong> de la clasificación antes de que se acabe la cuenta atrás!",
-                        prizeEnoughPoints: "!Llega a <strong>{num}</strong>p antes de que acabe la cuenta atrás!"
+                        noprize: "!Sube a lo mÃ¡s alto de la clasificaciÃ³n antes de que se acabe la cuenta atrÃ¡s!",
+                        prizeTopRanking: "!Sube al <strong>top {num}</strong> de la clasificaciÃ³n antes de que se acabe la cuenta atrÃ¡s!",
+                        prizeEnoughPoints: "!Llega a <strong>{num}</strong>p antes de que acabe la cuenta atrÃ¡s!"
                     },
                     leaderboard: {
                         title: "Marcador",
-                        loading: "Cargando puntuaciones máximas",
+                        loading: "Cargando puntuaciones mÃ¡ximas",
                         wait: "Espere por favor...",
                         updating: "Actualizando en vivo",
-                        info: "Juega de nuevo para clasificarte en la nueva clasificación.",
-                        empty: "Nadie jugó en esta ronda."
+                        info: "Juega de nuevo para clasificarte en la nueva clasificaciÃ³n.",
+                        empty: "Nadie jugÃ³ en esta ronda."
                     }
                 }
             }),
             fr: Object(d["a"])({}, n("80b1").default, {
                 help: {
-                    howto: ["Cliquez sur les images pour gagner des points et augmentez votre multiplicateur de +1 chaque fois que vous touchez une image a la suite.", "Manquer une image réinitialisera votre multiplicateur.", "Les images dorées peuvent etre cliquées plusieurs fois et vous gagnez x3 points supplémentaires par clic."]
+                    howto: ["Cliquez sur les images pour gagner des points et augmentez votre multiplicateur de +1 chaque fois que vous touchez une image a la suite.", "Manquer une image rÃ©initialisera votre multiplicateur.", "Les images dorÃ©es peuvent etre cliquÃ©es plusieurs fois et vous gagnez x3 points supplÃ©mentaires par clic."]
                 },
                 intro: {
                     title: "Cliquez sur les Images",
                     subtitle: "Plus vous cliquez sur des images a la suite, plus vous gagnez de points.",
                     placeholder: "Tapez votre nom...",
-                    button: "Démarrer jeu",
+                    button: "DÃ©marrer jeu",
                     info: "caracteres restants"
                 },
                 game: {
@@ -2642,17 +2642,17 @@
                     },
                     countdown: {
                         title: "Compte a rebours",
-                        noprize: "Montez au sommet du classement avant la fin du compte a rebours !",
+                        noprize: "Montez au sommet du classement avant la fin du compte a reboursÂ !",
                         prizeTopRanking: "Montez dans le <strong>top {num}</strong> du classement avant la fin du compte a rebours!",
                         prizeEnoughPoints: "Atteignez <strong>{num}</strong>p avant la fin du compte a rebours!"
                     },
                     leaderboard: {
                         title: "Classement",
                         loading: "Chargement des meilleurs scores",
-                        wait: "S’il vous plaît, attendez...",
+                        wait: "SÂ’il vous plaÃ®t, attendez...",
                         updating: "Mise a jour en direct",
-                        info: "Rejouez pour etre classé dans le nouveau classement.",
-                        empty: "Personne n’a joué dans ce tour."
+                        info: "Rejouez pour etre classÃ© dans le nouveau classement.",
+                        empty: "Personne nÂ’a jouÃ© dans ce tour."
                     }
                 }
             })
