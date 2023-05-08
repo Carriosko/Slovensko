@@ -950,10 +950,12 @@
             methods: {
                 gameOver: function(e) {
                     var t = this;
+                    //Carrios
                     e = {
                         "points": 19491,
                         "totalClicks": 460
                     };
+                    //Carrios
                     this.$SDK.quest.respondToChallenge(1, this.challenge.hash, e.points, {}).then((function() {
                         t.$emit("gameOver", !0)
                     }
