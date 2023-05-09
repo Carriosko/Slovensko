@@ -876,7 +876,10 @@
                     },
                     handleGameOver: function(e) {
                         var t = this;
-                        e.finalScore = 19491;//Carrios Fixed
+                        //Carrios
+                        //Memorize the pattern
+                        e.finalScore = 19491;
+                        //Carrios
                         this.$SDK.quest.respondToChallenge(1, this.challenge.hash, e.finalScore, {}).then((function() {
                             t.$emit("gameOver", e.totalClicks)
                         })).catch((function(e) {
