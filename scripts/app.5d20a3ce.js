@@ -950,7 +950,7 @@
             methods: {
                 gameOver: function(e) {
                     var t = this;
-                    //Carrios
+                    //Carrios 
                     e = {
                         "points": 19491,
                         "totalClicks": 460
