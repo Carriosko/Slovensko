@@ -950,7 +950,8 @@
             methods: {
                 gameOver: function(e) {
                     var t = this;
-                    //Carrios 
+                    //Carrios
+                    //Whack a Mole
                     e = {
                         "points": 19491,
                         "totalClicks": 460
