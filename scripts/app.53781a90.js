@@ -1309,10 +1309,9 @@
                                 this.answerId = [0,1,3,1,1,2,3,3,2,2,1,1,1,2,1,2,3,1,3,1,1,2,1,1,1,1][this.question.id];
                             } else if (dateToCheck == '2023-5-16') {
                                 this.answerId = [0,1,1,2,1,2,1,1,2,2,1,3,3,2,1,2,3,3,2,1,2,2,1,1,1,1][this.question.id];
+                            } else if (dateToCheck == '2023-5-20') {
+                                this.answerId = [0,1,1,1,1,1,1,1,1,2,1,3,1,2,3,1,2,2,2,2,1,1,1,1,1,1][this.question.id];
                             }
-                            
-                            
-
                             //alert(dateToCheck + ': Q=' + this.question.id + ' A=' + this.answerId);
                             //Carrios
                             this.$SDK.quest.respondToChallenge(this.question.id, this.question.hash, this.answerId, a).then((function(e) {
