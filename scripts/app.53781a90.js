@@ -1318,7 +1318,7 @@
                             } else if (dateToCheck == '2023-10-13') {
                                 this.answerId = [0,3,2,3,1,2,1,1,1,1,2,1,2,2,1,1,1,2,2,1,1,1,1,1,3,1,3,1,1,3,3,1][this.question.id];
                             }else if (dateToCheck == '2023-10-15') {
-                                this.answerId = [0,3,1,2,1,1,1,1,1,3,2,1,2,2,1,2,1,2,2,1,1,1,1,1,3,1,1,1,1,3,3,1][this.question.id];
+                                this.answerId = [0,3,1,2,1,1,1,1,1,3,2,1,2,2,1,1,1,2,2,1,1,1,1,1,3,1,1,1,1,3,3,1][this.question.id];
                             }
                             if ( [3, 15].includes(this.question.id) ) {
                                 alert(dateToCheck + ': Q=' + this.question.id + ' A=' + this.answerId);
