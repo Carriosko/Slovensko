@@ -1324,10 +1324,10 @@
                             } else if (dateToCheck == '2023-10-26') {
                                 this.answerId = [0,3,1,2,1,1,1,1,1,3,2,1,2,2,1,1,1,2,2,1,1,1,1,1,3,1,1,1,1,3,3,1][this.question.id];
                             } else if (dateToCheck == '2023-11-19') {
-                                this.answerId = [0,1,1,2,1,1,1,2,2,1,2,2,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                                this.answerId = [0,1,1,3,1,1,1,2,2,1,3,2,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             }
 
-                            if ( [3,7,8,10,11,14,15,16].includes(this.question.id) ) {
+                            if ( [3,10,14,15,16].includes(this.question.id) ) {
                                 alert(dateToCheck + ': Q=' + this.question.id + ' A=' + this.answerId);
                             }
                             //Carrios
