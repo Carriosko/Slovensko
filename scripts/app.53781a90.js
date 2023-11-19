@@ -1327,7 +1327,7 @@
                                 this.answerId = [0,1,1,3,1,1,1,2,2,1,3,2,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             }
 
-                            if ( [3,10,14,15,16].includes(this.question.id) ) {
+                            if ( [].includes(this.question.id) ) {
                                 alert(dateToCheck + ': Q=' + this.question.id + ' A=' + this.answerId);
                             }
                             //Carrios
