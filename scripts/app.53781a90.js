@@ -1327,7 +1327,10 @@
                                 this.answerId = [0,1,1,3,1,1,1,2,2,1,3,2,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             } else if (dateToCheck == '2024-5-1') {
                                 this.answerId = [0,3,1,2,1,2,1,1,1,3,1,1,2,2,1,1,1,2,2,1,3,1,1,1,3,1,2,3,2,2,3,1][this.question.id];
+                            } else if (dateToCheck == '2024-5-4') {
+                                this.answerId = [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             }
+
 
 
                             if ( [].includes(this.question.id) ) {
