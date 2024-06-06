@@ -1303,7 +1303,20 @@
                             var year = dateObj.getUTCFullYear().toString();
                             var dateToCheck = (year+'-'+month+'-'+day);
                             
-                            this.answerId = [0,2,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            var quizVersion = 2;
+                            var showErrors = false;
+                            if (quizVersion == 1) {
+                                this.answerId = [0,1,2,1,1,3,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            } else  if (quizVersion == 2) {
+                                this.answerId = [0,2,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            } else {
+                                this.answerId = [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            } 
+                            if ( showErrors ) {
+                                //alert(dateToCheck + ': Q=' + this.question.id + ' A=' + this.answerId + ' Hash=' + this.question.hash);
+                                alert( 'Q=' + this.question.id + ' A=' + this.answerId );
+                            }
+                            
                             this.$SDK.quest.respondToChallenge(this.question.id, this.question.hash, this.answerId, a).then((function(e) {
                                 n.checkAnswerTimeout = setTimeout((function() {
                                     n.correctIds = e.correctResponses, n.status = e.correctResponses.includes(n.answerId) ? "correct" : "wrong", n.trackAction(n.status), n.questionPoints = e.challengePoints, n.totalPoints = e.totalPoints, n.showPoints = !0, n.nextQuestionTimeout = setTimeout((function() {
