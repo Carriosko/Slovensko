@@ -1303,13 +1303,17 @@
                             var year = dateObj.getUTCFullYear().toString();
                             var dateToCheck = (year+'-'+month+'-'+day);
                             
-                            var quizVersion = 2;
+                            var quizVersion = 3;
                             var showErrors = false;
                             if (quizVersion == 1) {
                                 this.answerId = [0,1,2,1,1,3,1,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             } else  if (quizVersion == 2) {
                                 this.answerId = [0,2,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
-                            } else {
+                            } else  if (quizVersion == 3) {
+                                this.answerId = [0,2,3,1,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
+                            }
+                            
+                            else {
                                 this.answerId = [0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][this.question.id];
                             } 
                             if ( showErrors ) {
